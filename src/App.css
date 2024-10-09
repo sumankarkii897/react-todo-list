@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input{
+  height: 40px;
+  flex-basis: 80%;
+}
+form button{
+  flex-basis: 20%;
+}
+h1{
+  text-align: center;
+}
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+}
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  
+}
+.outerDiv ul li{
+  margin-top: 25px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 25px;
+  font-weight: bolder;
+  
+}
+.outerDiv ul li span{
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.completeTodos{
+  font-weight: bolder;
+  text-decoration: line-through;
+  color: red !important;
+  background-color: aqua !important;
+}
